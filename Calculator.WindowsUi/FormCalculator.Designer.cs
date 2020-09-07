@@ -141,6 +141,7 @@
             this.btnResultado.TabIndex = 9;
             this.btnResultado.Text = "=";
             this.btnResultado.UseVisualStyleBackColor = true;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
             // btnUno
             // 
@@ -220,7 +221,7 @@
             this.lblMemoria.Location = new System.Drawing.Point(18, 9);
             this.lblMemoria.MaximumSize = new System.Drawing.Size(229, 0);
             this.lblMemoria.Name = "lblMemoria";
-            this.lblMemoria.Size = new System.Drawing.Size(229, 20);
+            this.lblMemoria.Size = new System.Drawing.Size(229, 0);
             this.lblMemoria.TabIndex = 18;
             this.lblMemoria.Text = "(memoria)";
             this.lblMemoria.TextAlign = System.Drawing.ContentAlignment.TopRight;
