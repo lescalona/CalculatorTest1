@@ -17,6 +17,7 @@ namespace Calculator.WindowsUi
         private void btnResultado_Click(object sender, System.EventArgs e)
         {
 
+
         }
     }
 }
