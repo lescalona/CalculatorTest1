@@ -59,6 +59,7 @@
     <Compile Include="Common\ViewModelBase.cs" />
     <Compile Include="Common\WaitCursor.cs" />
     <Compile Include="Common\WindowsControlsBindingExtensions.cs" />
+    <Compile Include="DataAccess.cs" />
     <Compile Include="FormCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +67,7 @@
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </Compile>
     <Compile Include="MainViewModelFactory.cs" />
+    <Compile Include="Models\Operaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCalculator.resx">
@@ -99,9 +101,7 @@
       <Name>Calculator.Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
